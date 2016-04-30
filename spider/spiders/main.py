@@ -135,4 +135,3 @@ class WeiboSpider(CrawlSpider):
             userItem['userId'] = userId 
             yield userItem      
                 
-         
