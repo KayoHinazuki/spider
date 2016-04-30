@@ -133,5 +133,4 @@ class WeiboSpider(CrawlSpider):
         else:
             userItem = response.meta['userItem']    
             userItem['userId'] = userId 
-            yield userItem      
-                
+            yield userItem                     

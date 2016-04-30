@@ -8,7 +8,7 @@ user = {
     'name': 'lyh472617147@sina.cn',
     'password': 'vae15213636384'
 }
-#利用新浪其他站点共用cookie 来避开验证码
+#利用新浪其他站点共用cookie 避开验证码
 def getCookie(weibo):
     loginURL = r'https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.15)'
     account = user['name']
