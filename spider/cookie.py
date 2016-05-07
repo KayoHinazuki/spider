@@ -3,10 +3,8 @@ import json
 import base64
 import requests
 user = {
-    # 'name': 'mb55411@umac.mo',
-    # 'password': 'bjyz330681740'
-    'name': 'lyh472617147@sina.cn',
-    'password': 'vae15213636384'
+     'name': 'mb55411@umac.mo',
+     'password': 'bjyz330681740'
 }
 #利用新浪其他站点共用cookie 来避开验证码
 def getCookie():
